@@ -36,7 +36,7 @@ public class Test {
 			}
 
 			System.out.println("*****************获取公有、无参的构造方法*******************************");
-			Constructor constructor = userClass2.getConstructor(null);
+			Constructor constructor = userClass2.getConstructor((Class<?>) null);
 			System.out.println(constructor);
 			Object obj = constructor.newInstance();
 			Student stu = (Student)obj;

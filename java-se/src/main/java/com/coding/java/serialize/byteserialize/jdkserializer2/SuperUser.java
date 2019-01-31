@@ -1,4 +1,4 @@
-package com.coding.java.serialize.jdkserializer2;
+package com.coding.java.serialize.byteserialize.jdkserializer2;
 
 /**
  * @author scq

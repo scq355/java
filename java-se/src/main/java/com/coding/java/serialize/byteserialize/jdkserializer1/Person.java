@@ -1,4 +1,4 @@
-package com.coding.java.serialize.jdkserializer1;
+package com.coding.java.serialize.byteserialize.jdkserializer1;
 
 import lombok.experimental.Accessors;
 

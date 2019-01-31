@@ -1,11 +1,13 @@
-package com.coding.java.serialize.jdkserializer2;
+package com.coding.java.serialize.byteserialize.fstserialize;
 
 import java.io.Serializable;
 
 /**
  * @author scq
  */
-public class User extends SuperUser implements Serializable {
+public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private String name;
     private int age;
     /**
